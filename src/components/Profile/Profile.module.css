@@ -46,6 +46,8 @@
     border-top: 1px solid black;
     list-style: none;
     padding-left: 0;
+    background-color: #CCFF99;
+    margin-bottom: 0;
 }
 
 .stats_item {
