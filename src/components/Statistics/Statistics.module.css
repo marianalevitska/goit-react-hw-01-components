@@ -1,0 +1,48 @@
+.statistics {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.stat__list {
+    display: inline-flex;
+    border: 1px solid black;
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.item {
+    width: 100px;
+
+}
+
+.item:nth-child(n) {
+    background-color: #CCFF99;
+}
+
+.item:nth-child(2n) {
+    background-color: #FFcc99;
+}
+
+.item:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+.label {
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.percentage {
+    font-weight: 700;
+    font-size: 25px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.title {
+    text-transform: uppercase;
+}
