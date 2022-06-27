@@ -1,1 +1,17 @@
-.pr_block {}
+.pr_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.profile {
+    background-color: #FFCC99;
+    border: 1px solid #331900;
+}
+
+.description {
+    padding: 70px;
+    padding-bottom: 0;
+    margin-bottom: 50px;
+}
