@@ -1,7 +1,7 @@
 import user from './data/user.json';
 import Profile from './components/Profile/Profile';
 
-const App = () => {
+export const App = () => {
   return (
     <div>
       <Profile
@@ -14,5 +14,5 @@ const App = () => {
     </div>
   );
 };
-export default App;
+
 
