@@ -1,0 +1,23 @@
+.transaction__history {
+
+    margin: 0 auto;
+    width: 700px;
+    border-collapse: collapse;
+}
+
+.tr_item {
+    text-align: center;
+
+}
+
+th {
+    color: rgb(240, 235, 235);
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #ccff99;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
