@@ -7,6 +7,7 @@ export const FriendList = ({ friends }) => {
         <div className={styles.friends_block} >
             <ul className={styles.friends_list}>
                 {friends.map(({ avatar, name, isOnline, id }) => {
+
                     return (
                         <FriendListItem
                             avatar={avatar}
@@ -27,7 +28,7 @@ FriendList.propTypes = {
         id: PropTypes.number.isRequired,
         avatar: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
-        isOnline: PropTypes.boolean,
+        isOnline: PropTypes.bool.isRequired,
     })),
 }
 export default FriendList;
