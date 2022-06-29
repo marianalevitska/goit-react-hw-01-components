@@ -1,4 +1,5 @@
 .friend__item {
+    list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,6 +25,9 @@
 }
 
 .active {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
     background-color: rgb(10, 247, 22);
 }
 
